@@ -32,8 +32,7 @@ const NoteListClient= () => {
     refetchOnMount: false,
   });
 
-  // if (error) throw error;
-  // if (!data?.notes) throw new Error('Could not fetch the list of notes.');
+
 
   const totalPages = data?.totalPages || 0;
   return (
